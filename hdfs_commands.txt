@@ -1,0 +1,7 @@
+In hdfs file system, / iis the root.
+
+# Command to check the files inside root hdfs directory
+hadoop fs -ls /
+
+# Command to create the directory inside root hdfs directory
+hadoop fs -mkdir /input_data
